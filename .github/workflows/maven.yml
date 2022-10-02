@@ -20,3 +20,4 @@ jobs:
       - name: build
         run: |
           mvn -B package
+          mvn test
